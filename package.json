@@ -10,7 +10,7 @@
   },
   "private": true,
   "engines": {
-    "node": "20.10.0"
+    "node": "20.11.0"
   },
   "dependencies": {
     "@angular/animations": "^17.0.0",
