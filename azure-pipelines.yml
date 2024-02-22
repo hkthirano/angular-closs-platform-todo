@@ -10,8 +10,8 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: AzureStaticWebApp@0
-  inputs:
-    app_location: 'angular-closs-platform-todo'
-    output_location: 'dist/browser'
-    azure_static_web_apps_api_token: $(DEPLOYMENT_TOKEN)
+  - task: AzureStaticWebApp@0
+    inputs:
+      app_location: '/angular-closs-platform-todo'
+      output_location: '/dist'
+      azure_static_web_apps_api_token: $(DEPLOYMENT_TOKEN)
