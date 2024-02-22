@@ -12,6 +12,6 @@ pool:
 steps:
 - task: AzureStaticWebApp@0
   inputs:
-    app_location: 'angular-closs-platform-todo-devops'
+    app_location: 'angular-closs-platform-todo'
     output_location: '/dist'
     azure_static_web_apps_api_token: '6052dab61cdee04cde8117c524b517fd358b81bacd7ffdf7342bde44bd83dc024-9d4e6bf8-f837-44d8-8866-29e001d55bd1000124003'
