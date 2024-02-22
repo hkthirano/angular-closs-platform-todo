@@ -13,5 +13,5 @@ steps:
   - task: AzureStaticWebApp@0
     inputs:
       app_location: '/'
-      output_location: 'dist/angular-closs-platform-todo'
+      output_location: 'dist/angular-closs-platform-todo/browser'
       azure_static_web_apps_api_token: $(DEPLOYMENT_TOKEN)
